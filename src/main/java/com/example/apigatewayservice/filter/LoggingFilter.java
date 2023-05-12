@@ -49,7 +49,7 @@ public class LoggingFilter extends AbstractGatewayFilterFactory<LoggingFilter.Co
             ServerHttpRequest request = exchange.getRequest();
             ServerHttpResponse response = exchange.getResponse();
 
-            log.info("Logging Filter baseMessage: {}", config.getBaseMessage());
+            log.info("Logging Filter baseMessage:: {}", config.getBaseMessage());
 
             if (config.isPreLogger()) {
                 log.info("Logging Filter Start:: request id -> {}", request.getId());
