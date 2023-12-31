@@ -11,7 +11,7 @@ import reactor.core.publisher.Mono;
 
 /**
  * GlobalFilter.java
- * Class 설명을 작성하세요.
+ * 글로벌 필터
  *
  * @author kjm
  * @since 2023.05.02
